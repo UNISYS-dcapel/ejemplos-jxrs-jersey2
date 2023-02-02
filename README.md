@@ -1,4 +1,6 @@
 # Ejemplo de uso de JAX-RS (API Rest) en una Java Webapp Maven
+# JDK
+Este ejemplo funciona bien con el JDK8
 # Compilación
 <code>$ mvn clena compile</code>
 # Empaquetado

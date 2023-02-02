@@ -93,6 +93,20 @@
           <path>/</path>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.codehaus.cargo</groupId>
+        <artifactId>cargo-maven3-plugin</artifactId>
+        <version>1.10.4</version>
+        <configuration>
+          <container>
+            <containerId>tomcat9x</containerId>
+            <type>embedded</type>
+            <systemProperties>
+              <cargo.servlet.port>9090</cargo.servlet.port>
+            </systemProperties>
+          </container>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 </project>
